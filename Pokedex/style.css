@@ -5,19 +5,16 @@
 }
 
 body {
-  background: linear-gradient(135deg, #badbc1, #3d4f6b);
-  background-color: #efefef;
+  background-color: #fff;
   font-family: "Lato", sans-serif;
-  height: 100vh;
-  margin: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0;
 }
 
 h1 {
-  color: #fff;
   font-size: 2.5rem;
   margin-bottom: 1rem;
 }
@@ -44,11 +41,26 @@ h1 {
 .pokemon-card .img-container {
   background-color: #fff;
   border-radius: 50%;
-  width: 120px;
-  height: 120px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
 }
 
 .pokemon-card img {
-  max-width: 90%;
-  margin-top: 10px;
+  height: 100%;
+}
+
+.pokemon-card .info {
+  margin-top: 1rem;
+}
+
+.pokemon-card .info .number {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.pokemon-card .info .name {
+  font-weight: bold;
+  margin-top: 0.5rem;
 }
