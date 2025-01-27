@@ -25,17 +25,22 @@ h1 {
   justify-content: center;
   align-items: space-between;
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .pokemon-card {
   background-color: #fff;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
   margin: 1rem;
   padding: 1rem;
   width: 200px;
   text-align: center;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  }
 }
 
 .pokemon-card .img-container {
